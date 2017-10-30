@@ -1,0 +1,18 @@
+body{
+   background-color: #31a587;
+}
+#myTopnav{
+    background-color:rgb(29, 99, 89);
+}
+a:visited{
+    color:lime;
+        font-size:30px;
+}
+a:hover{
+    color:red;
+    font-size:30px;
+}
+a:active{
+    color:rgb(102, 255, 102);
+    font-size:30px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color:#31a587;
+}
+#myTopnav{
+    background-color:rgb(29, 99, 89);
+}
+.header{
+    border:double #27c49a 15px;
+    background-color:#42f4c5;
+    padding:0 30px 30px 30px ;
+    margin-top:0;
+    border-radius:60%;
+    text-align:center;
+}
+a:visited{
+    color:lime;
+        font-size:30px;
+}
+a:hover{
+    color:red;
+    font-size:30px;
+}
+a:active{
+    color:rgb(102, 255, 102);
+    font-size:30px;
+}
