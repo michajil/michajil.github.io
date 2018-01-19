@@ -1,0 +1,12 @@
+.sidebar{
+    float:left;
+    width:15%;
+    height:1500px;
+    
+}
+.q1-progress, .q2-progress,.q3-progress{
+    display:none;
+}
+.q1, .q2, .q3{
+    display:none;
+}

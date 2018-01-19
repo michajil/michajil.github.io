@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+   <html>
+       <head>
+           <!-- EXTERNAL LINKS -->
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+           
+           <!-- INTERNAL LINKS -->
+           <!-- css sheet <link rel="stylesheet" href="mystyle.css"> -->
+           <link rel="stylesheet" href="gameoptions.css">
+           <!-- js sheet <script src="myScript.js"></script> -->
+           <script src="gameoptions.js"></script>
+           
+           
+           <!-- DOCUMENT SETTINGS -->
+           <title>Game Suggestions</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <meta charset="UTF-8">
+           
+       </head>
+       <body>
+           <div class="title">
+               <h1>Game Selector</h1>
+               <h3>Answer the questions for suggested games to try.</h3>
+               <h5>WARNING!!! Not responsible for any crap games it might suggest.</h5>
+           </div>
+           <div class="sidebar">
+               <ol>
+                   <li class="q1-progress"> Do you like to  play video games?
+                       <ul>
+                           <li class="q1-choice"></li>
+                       </ul>
+                   </li>
+                   <li class="q2-progress">What type of games do you like?
+                   <ul>
+                       <li class="q2-choice"></li>
+                   </ul>
+                   </li>
+                   <li class="q3-progress">What type of <span class="game-type"></span>
+                       <ul>
+                           <li class="q3-choice"></li>
+                       </ul>
+                   </li>
+               </ol>
+           </div>
+           <div class="content">
+               <div class="q1">
+                   <div class="q1-narritive">
+                       <h4>Do you like to play video games?</h4>
+                   </div>
+                   <div class="q1-choices">
+                       <button class="btn btn-primary q1-choices-yes">Yes</button>
+                       <button class="btn btn-primary q1-choice-no">No</button>
+                   </div>
+               </div>
+               <div class="q2">
+                   <div class="q2-narritive">
+                       <h4>What type of games do you like?</h4>
+                   </div>
+                   <div class="q2-choices">
+                       <button class="btn btn-primary q2-choices-rpg">RPG</button>
+                       <button class="btn btn-primary q2-choices-fps">FPS</button>
+                       <button class="btn btn-primary q2-choices-sports">SPORTS</button>
+                       <button class="btn btn-primary q2-choices-adventure">ADVENTURE</button>
+                       <button class="btn btn-primary q2-choices-mmo">MMO</button>
+                   </div>
+               </div>
+               <div class="q3">
+                   <div class="q3-narritive"><h4>What type of <span class="game-type"></span>do you like?</h4>
+                   </div>
+                   <div class="q3-choices-RPG">
+                        <button class="btn btn-primary q3-choices-sf">Science Fiction</button>
+                       <button class="btn btn-primary q3-choices-sfan">Science Fantasy</button>
+                   </div>
+                    <div class="q3-choices-FPS">
+                        <button class="btn btn-primary q3-choices-real ">Realistic</button>
+                       <button class="btn btn-primary q3-choices-future ">Futuristic</button>
+                   </div>
+                    <div class="q3-choices-SPORTS">
+                        <button class="btn btn-primary q3-choices-basketball">Basketball</button>
+                       <button class="btn btn-primary q3-choices-football">American Football</button>
+                   </div>
+                    <div class="q3-choices-ADVENTURE">
+                        <button class="btn btn-primary q3-choices-sim">Simulation</button>
+                       <button class="btn btn-primary q3-choices-hack"> Hack N Slash</button>
+                   </div>
+                   <div class="q3-choices-MMO">
+                        <button class="btn btn-primary q3-choices-arena">Arena Battle</button>
+                       <button class="btn btn-primary q3-choices-rpg">RPG's</button>
+                   </div>
+               </div>
+               <div class="games">
+               </div>
+           </div>
+       </body>
+   </html>
