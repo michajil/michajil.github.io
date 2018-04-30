@@ -2,7 +2,6 @@ var maybe;
 var Paddle;
 var ball;
 var drum;
-var evil;
 
 var CHANGE = 5;
 function checkCollisions(){
@@ -63,7 +62,6 @@ function init() {
 
     //creates a scene object, which has its own properties and actions
     scene = new Scene();
-      evil = new Sprite(scene, "http://www.textures4photoshop.com/tex/thumbs/space-background-with-starfield-free-download-thumb45.jpg");
     drum = new Sound("bensound-instinct.mp3")
     scene.hideCursor();
     //create a sprite object to represent our ball and paddle
