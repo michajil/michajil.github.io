@@ -63,7 +63,7 @@ function init() {
 
     //creates a scene object, which has its own properties and actions
     scene = new Scene();
-      evil = new Sprite(game, "http://www.textures4photoshop.com/tex/thumbs/space-background-with-starfield-free-download-thumb45.jpg");
+      evil = new Sprite(scene, "http://www.textures4photoshop.com/tex/thumbs/space-background-with-starfield-free-download-thumb45.jpg");
     drum = new Sound("bensound-instinct.mp3")
     scene.hideCursor();
     //create a sprite object to represent our ball and paddle
